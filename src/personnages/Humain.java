@@ -43,4 +43,9 @@ public void gagnerArgent(int som) {
 public void perdreArgent(int som) {
 	 this.argent=argent-som ;
 }
+
+public void boire() {
+    parler("Ahhh, un bon verre de " + this.boisson + "! GLOUPS!");
+}
+
 }
